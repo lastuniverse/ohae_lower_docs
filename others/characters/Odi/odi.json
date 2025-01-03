@@ -1,0 +1,78 @@
+{
+    "skeleton": {
+        "images": "images"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "odiLHand",
+            "attachment": "odiLHand",
+            "bone": "root"
+        },
+        {
+            "name": "odiBody",
+            "attachment": "odiBody",
+            "bone": "root"
+        },
+        {
+            "name": "odiRHand",
+            "attachment": "odiRHand",
+            "bone": "root"
+        },
+        {
+            "name": "odiHead",
+            "attachment": "odiHead",
+            "bone": "root"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "odiLHand": {
+                    "odiLHand": {
+                        "x": 178.0,
+                        "y": 127.5,
+                        "width": 178,
+                        "height": 543,
+                        "path": "odiLHand"
+                    }
+                },
+                "odiBody": {
+                    "odiBody": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 768,
+                        "height": 1344,
+                        "path": "odiBody"
+                    }
+                },
+                "odiRHand": {
+                    "odiRHand": {
+                        "x": -177.0,
+                        "y": 131.0,
+                        "width": 154,
+                        "height": 544,
+                        "path": "odiRHand"
+                    }
+                },
+                "odiHead": {
+                    "odiHead": {
+                        "x": 34.0,
+                        "y": 567.5,
+                        "width": 256,
+                        "height": 209,
+                        "path": "odiHead"
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "skeleton": {
+        "images": "images"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "RArm",
+            "attachment": "RArm",
+            "bone": "root"
+        },
+        {
+            "name": "RHand",
+            "attachment": "RHand",
+            "bone": "root"
+        },
+        {
+            "name": "RThigh",
+            "attachment": "RThigh",
+            "bone": "root"
+        },
+        {
+            "name": "LThigh",
+            "attachment": "LThigh",
+            "bone": "root"
+        },
+        {
+            "name": "Hip",
+            "attachment": "Hip",
+            "bone": "root"
+        },
+        {
+            "name": "LArm",
+            "attachment": "LArm",
+            "bone": "root"
+        },
+        {
+            "name": "LHand",
+            "attachment": "LHand",
+            "bone": "root"
+        },
+        {
+            "name": "Head",
+            "attachment": "Head",
+            "bone": "root"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "RArm": {
+                    "RArm": {
+                        "x": -5.5,
+                        "y": 93.0,
+                        "width": 199,
+                        "height": 234,
+                        "path": "RArm"
+                    }
+                },
+                "RHand": {
+                    "RHand": {
+                        "x": -106.5,
+                        "y": 25.0,
+                        "width": 63,
+                        "height": 38,
+                        "path": "RHand"
+                    }
+                },
+                "RThigh": {
+                    "RThigh": {
+                        "x": -53.0,
+                        "y": -108.5,
+                        "width": 266,
+                        "height": 241,
+                        "path": "RThigh"
+                    }
+                },
+                "LThigh": {
+                    "LThigh": {
+                        "x": 0.0,
+                        "y": -117.5,
+                        "width": 378,
+                        "height": 331,
+                        "path": "LThigh"
+                    }
+                },
+                "Hip": {
+                    "Hip": {
+                        "x": 84.5,
+                        "y": 82.5,
+                        "width": 125,
+                        "height": 293,
+                        "path": "Hip"
+                    }
+                },
+                "LArm": {
+                    "LArm": {
+                        "x": 101.0,
+                        "y": 38.5,
+                        "width": 88,
+                        "height": 277,
+                        "path": "LArm"
+                    }
+                },
+                "LHand": {
+                    "LHand": {
+                        "x": 60.0,
+                        "y": -97.0,
+                        "width": 58,
+                        "height": 66,
+                        "path": "LHand"
+                    }
+                },
+                "Head": {
+                    "Head": {
+                        "x": 61.5,
+                        "y": 239.0,
+                        "width": 81,
+                        "height": 88,
+                        "path": "Head"
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}
